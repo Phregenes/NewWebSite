@@ -1,0 +1,64 @@
+.home__presentation {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 40s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.home__contact {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background-color: #1f1a1c;
+  min-height: 100vh;
+  opacity: 0.9;
+}
+
+.home__gallery {
+  color: white;
+  height: 100vh;
+}
+
+.home__octagon-conteiner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100vh;
+  padding: 20px;
+}
+
+.home__octagon {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.77,.28,.42,.93);
+
+  width: 350px;
+  height: 350px;
+  margin: 8%;
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0);
+  }
+  100% {
+      transform: rotate(180deg);
+  }
+}

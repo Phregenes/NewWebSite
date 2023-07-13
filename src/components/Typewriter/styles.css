@@ -1,0 +1,19 @@
+.Presentation {
+  color: white;
+  position: absolute;
+  transform: translate(-50%,);
+  padding: 20px;
+  top: 25%;
+  margin: 0;
+}
+
+.Presentation h1 {
+  font-weight: 200;
+  margin: 0.4em 0;
+  font-size: 4.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .Presentation {
+    font-size: 2vw;
+}}

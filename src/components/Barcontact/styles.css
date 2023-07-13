@@ -1,0 +1,143 @@
+.barcontact {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.barcontact .container_ul {
+  position:absolute;
+  top:0;
+  left:50%;
+  transform:translate(-50%, -50%);
+  display:flex;
+  margin:5px;
+  padding:0;
+} 
+
+@media screen and (max-width: 780px) {
+  .barcontact .container_ul {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .container_li a{
+    margin-bottom: 40px;
+  }
+}
+
+.barcontact .container_ul .container_li {
+  list-style:none;
+  margin:0 5px; 
+}
+
+.barcontact .container_ul .container_li a .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height:80px;
+  transition: .5s;
+  padding-right: 14px;
+}
+
+.barcontact .container_ul .container_li a span {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: .5s;
+}
+
+.barcontact .container_ul .container_li a {
+  text-decoration: none;
+  display:absolute;
+  display:block;
+  width:230px;
+  height:80px;
+  background: #fff;
+  text-align:left;
+  transform: rotate(-30deg) skew(25deg) translate(0,0);
+  transition:.5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+
+.barcontact .container_ul .container_li a:before {
+  content: '';
+  position: absolute;
+  top:10px;
+  left:-20px;
+  height:100%;
+  width:20px;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.barcontact .container_ul .container_li a:after {
+  content: '';
+  position: absolute;
+  bottom:-20px;
+  left:-10px;
+  height:20px;
+  width:100%;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.barcontact .container_ul .container_li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+
+.barcontact .container_ul .container_li:hover .fa {
+  color:#fff;
+}
+
+.barcontact .container_ul .container_li:hover span {
+  color:#fff;
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(1) a{
+  /* background: #3b5998; */
+  background: linear-gradient(135deg, #3b5998, #4a69ad);
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(1) a:before{
+  background: #36559273;
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(1) a:after{
+  background: #4a69ad;
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(2) a{
+  background: linear-gradient(135deg, #24292e, #32393f);
+
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(2) a:before{
+  background: #1e2226d0;
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(2) a:after{
+  background: #32393f;
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(3) a{
+  background: linear-gradient(135deg, #8a3ab9, #ed4956);
+
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(3) a:before{
+  background: #8a3ab9;
+}
+
+.barcontact .container_ul .container_li:hover:nth-child(3) a:after{
+  background: linear-gradient(135deg, #8a3ab9, #ed4956);
+}

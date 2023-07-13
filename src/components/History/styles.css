@@ -1,0 +1,12 @@
+.container_u{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container_u .image{
+  width: 200px;
+  margin: 10px;
+  border-radius: 100px;
+}
