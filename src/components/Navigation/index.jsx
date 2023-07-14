@@ -25,7 +25,7 @@ const Navigation = () => {
           <a className="navigation__a" href="#about">Sobre</a>
         </li>
         <li>
-          <a className="navigation__a" href="#skills">Portfolio</a>
+          <a className="navigation__a" href="#skills">Tecnologias</a>
         </li>
         <li>
           <a className="navigation__a" href="#gallery">Galeria</a>
